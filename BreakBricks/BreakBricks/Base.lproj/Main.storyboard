@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BBViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzK-HP-him">
+                                <rect key="frame" x="93" y="577" width="188" height="30"/>
+                                <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HJi-OD-Ge0">
+                                <rect key="frame" x="0.0" y="0.0" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.97396096929999998" green="1" blue="0.1604773753" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0v-Di-fbb">
+                                <rect key="frame" x="75" y="40" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.97396096929999998" green="1" blue="0.1604773753" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VwS-Il-f6k">
+                                <rect key="frame" x="75" y="0.0" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kpk-VU-ciX">
+                                <rect key="frame" x="0.0" y="40" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EF1-W1-WAg">
+                                <rect key="frame" x="75" y="80" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H9M-HT-xSO">
+                                <rect key="frame" x="150" y="120" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qoe-qs-NxD">
+                                <rect key="frame" x="225" y="160" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W05-7O-fbl">
+                                <rect key="frame" x="150" y="40" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k4U-65-Eug">
+                                <rect key="frame" x="225" y="80" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssW-mQ-FE6">
+                                <rect key="frame" x="300" y="120" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qqn-2P-rsj">
+                                <rect key="frame" x="150" y="80" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.97396096929999998" green="1" blue="0.1604773753" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27h-pa-uwI">
+                                <rect key="frame" x="225" y="120" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.97396096929999998" green="1" blue="0.1604773753" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceE-eA-0D3">
+                                <rect key="frame" x="300" y="160" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.97396096929999998" green="1" blue="0.1604773753" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oBq-Rd-noZ">
+                                <rect key="frame" x="150" y="0.0" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.71327269419999995" blue="0.21370067240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="udO-FN-Qp6">
+                                <rect key="frame" x="0.0" y="80" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.71327269419999995" blue="0.21370067240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjL-g1-gp6">
+                                <rect key="frame" x="75" y="120" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.71327269419999995" blue="0.21370067240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Paj-lO-M7K">
+                                <rect key="frame" x="150" y="160" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.71327269419999995" blue="0.21370067240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLM-sZ-4T7">
+                                <rect key="frame" x="0.0" y="120" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.34994866660000001" green="0.85438368060000003" blue="0.1345311374" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blp-5l-Jwc">
+                                <rect key="frame" x="75" y="160" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.34994866660000001" green="0.85438368060000003" blue="0.1345311374" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MdQ-Uh-rvj">
+                                <rect key="frame" x="225" y="0.0" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.34994866660000001" green="0.85438368060000003" blue="0.1345311374" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IAN-b5-HtZ">
+                                <rect key="frame" x="300" y="40" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.34994866660000001" green="0.85438368060000003" blue="0.1345311374" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dHq-5O-h4m">
+                                <rect key="frame" x="0.0" y="160" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.1058823529" green="0.64705882349999999" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dkF-bE-sAC">
+                                <rect key="frame" x="300" y="0.0" width="75" height="40"/>
+                                <color key="backgroundColor" red="0.1058823529" green="0.64705882349999999" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-dz-BYC">
+                                <rect key="frame" x="225" y="40" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.71327269419999995" blue="0.21370067240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njh-dI-9Xp">
+                                <rect key="frame" x="300" y="80" width="75" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.71327269419999995" blue="0.21370067240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="点击屏幕开始游戏" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heC-5a-ifl">
+                                <rect key="frame" x="0.0" y="323" width="375" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="1" green="0.41228087000000002" blue="0.38321282359999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dPn-Wm-nBv">
+                                <rect key="frame" x="167" y="537" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="ballView" destination="dPn-Wm-nBv" id="GYe-p9-IEh"/>
+                        <outlet property="labelView" destination="heC-5a-ifl" id="bXe-bJ-fIO"/>
+                        <outlet property="paddle" destination="hzK-HP-him" id="7CG-cj-hyT"/>
+                        <outletCollection property="bricks" destination="W05-7O-fbl" id="uNK-iO-9ej"/>
+                        <outletCollection property="bricks" destination="dkF-bE-sAC" id="aep-gg-dTY"/>
+                        <outletCollection property="bricks" destination="MdQ-Uh-rvj" id="Nsl-xh-pHJ"/>
+                        <outletCollection property="bricks" destination="oBq-Rd-noZ" id="lGg-lL-m6G"/>
+                        <outletCollection property="bricks" destination="IAN-b5-HtZ" id="lzg-eH-zUa"/>
+                        <outletCollection property="bricks" destination="F2F-dz-BYC" id="74u-eq-jWc"/>
+                        <outletCollection property="bricks" destination="njh-dI-9Xp" id="mCU-de-ZDQ"/>
+                        <outletCollection property="bricks" destination="k4U-65-Eug" id="HY8-9a-yfC"/>
+                        <outletCollection property="bricks" destination="qqn-2P-rsj" id="hRE-HB-RfY"/>
+                        <outletCollection property="bricks" destination="ssW-mQ-FE6" id="WY9-lA-DPf"/>
+                        <outletCollection property="bricks" destination="ceE-eA-0D3" id="Dad-8y-6Ja"/>
+                        <outletCollection property="bricks" destination="27h-pa-uwI" id="MfN-x2-ado"/>
+                        <outletCollection property="bricks" destination="qoe-qs-NxD" id="zMq-sJ-uhg"/>
+                        <outletCollection property="bricks" destination="H9M-HT-xSO" id="bbE-Ix-OlF"/>
+                        <outletCollection property="bricks" destination="Paj-lO-M7K" id="jWR-Ye-8kb"/>
+                        <outletCollection property="bricks" destination="fjL-g1-gp6" id="i7h-I3-vTc"/>
+                        <outletCollection property="bricks" destination="blp-5l-Jwc" id="POt-KQ-Xry"/>
+                        <outletCollection property="bricks" destination="EF1-W1-WAg" id="eww-Te-yLz"/>
+                        <outletCollection property="bricks" destination="o0v-Di-fbb" id="jrU-ZL-aTN"/>
+                        <outletCollection property="bricks" destination="VwS-Il-f6k" id="XlB-Jm-bh6"/>
+                        <outletCollection property="bricks" destination="HJi-OD-Ge0" id="glt-Pp-11x"/>
+                        <outletCollection property="bricks" destination="Kpk-VU-ciX" id="hLu-EW-JrY"/>
+                        <outletCollection property="bricks" destination="udO-FN-Qp6" id="5L1-6f-ujY"/>
+                        <outletCollection property="bricks" destination="BLM-sZ-4T7" id="8EL-zZ-QhU"/>
+                        <outletCollection property="bricks" destination="dHq-5O-h4m" id="64h-do-La5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="343.5" y="305.5"/>
+        </scene>
+    </scenes>
+</document>
